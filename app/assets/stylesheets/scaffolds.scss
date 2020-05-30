@@ -1,12 +1,21 @@
+h1, table, a {
+
+  margin-left: 20px;
+
+}
 body {
   background-color: #fff;
   color: #333;
   margin: 33px; }
 
+
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
-  line-height: 18px; }
+  line-height: 18px;
+
+}
+
 
 pre {
   background-color: #eee;
@@ -27,7 +36,8 @@ th {
   padding-bottom: 5px; }
 
 td {
-  padding: 0 5px 7px; }
+  padding: 0 5px 7px;
+ }
 
 div.field,
 div.actions {

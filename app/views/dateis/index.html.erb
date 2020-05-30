@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Dateis</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Titel</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dateis.each do |datei| %>
+      <tr class="index">
+        <td><%= datei.Name %></td>
+        <td><%= datei.Titel %></td>
+        <td><%= link_to 'Show', datei %></td>
+        <td><%= link_to 'Edit', edit_datei_path(datei) %></td>
+        <td><%= link_to 'Destroy', datei, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Datei', new_datei_path %>

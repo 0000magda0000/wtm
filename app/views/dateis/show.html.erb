@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @datei.Name %>
+</p>
+
+<p>
+  <strong>Titel:</strong>
+  <%= @datei.Titel %>
+</p>
+
+<p>
+  <strong>Documents:</strong> <br/>
+<% if @datei.document.attached? %>
+  <% @datei.document.each do |datei| %>
+    <%= link_to datei.filename, datei, target: '_blank' %> <br/>
+  <% end %>
+<% else %>
+  <p>keine Datei</p>
+<% end %>
+</p>
+
+
+<%= link_to 'Edit', edit_datei_path(@datei) %> |
+<%= link_to 'Back', dateis_path %>
