@@ -1,0 +1,434 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "font-awesome";
+ @import "scaffolds";
+
+
+
+ .w {
+font-family: helvetica;
+ position: relative;
+ animation: movew 1s forwards;
+ animation-delay: .5s;
+ font-size: 1em;
+ }
+
+ @keyframes movew {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(0%) translatey(-29em);
+     }
+ }
+
+
+ .u {
+font-family: helvetica;
+ position: relative;
+ animation: moveu 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moveu {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(22%) translatey(-28em);
+     }
+ }
+
+
+ .ttt {
+font-family: helvetica;
+ position: relative;
+ animation: movettt 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movettt {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(3%) translatey(-27em);
+     }
+ }
+
+
+ .tt {
+font-family: helvetica;
+ position: relative;
+ animation: movett 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movett {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(8%) translatey(-26em);
+     }
+ }
+
+
+ .t {
+font-family: helvetica;
+ position: relative;
+ animation: movet 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movet {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(18%) translatey(-25em);
+     }
+ }
+
+ .rrr {
+font-family: helvetica;
+ position: relative;
+ animation: moverrr 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moverrr {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(1%) translatey(-22.1em);
+     }
+ }
+
+ .rr {
+font-family: helvetica;
+ position: relative;
+ animation: moverr 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moverr {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(10%) translatey(-21em);
+     }
+ }
+
+ .r {
+font-family: helvetica;
+ position: relative;
+ animation: mover 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes mover {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(20%) translatey(-20em);
+     }
+ }
+
+ .o {
+font-family: helvetica;
+ position: relative;
+ animation: moveo 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moveo {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(11%) translatey(-19em);
+     }
+ }
+
+ .n {
+font-family: helvetica;
+ position: relative;
+ animation: moven 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moven {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(5%) translatey(-18em);
+     }
+ }
+
+ .m {
+font-family: helvetica;
+ position: relative;
+ animation: movem 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movem {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(16%) translatey(-17em);
+     }
+ }
+
+ .l {
+font-family: helvetica;
+ position: relative;
+ animation: movel 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movel {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(23%) translatey(-16em);
+     }
+ }
+
+ .iii {
+font-family: helvetica;
+ position: relative;
+ animation: moveiii 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moveiii {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(2%) translatey(-15em);
+     }
+ }
+
+ .ii {
+font-family: helvetica;
+ position: relative;
+ animation: moveii 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moveii {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(4%) translatey(-14em);
+     }
+ }
+ .i {
+font-family: helvetica;
+ position: relative;
+ animation: movei 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movei {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(21%) translatey(-13em);
+     }
+ }
+
+ .hh {
+font-family: helvetica;
+ position: relative;
+ animation: movehh 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movehh {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(9%) translatey(-12em);
+     }
+ }
+
+ .h {
+font-family: helvetica;
+ position: relative;
+ animation: moveh 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moveh {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(14%) translatey(-11em);
+     }
+ }
+
+ .gg {
+font-family: helvetica;
+ position: relative;
+ animation: movegg 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movegg {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(6%) translatey(-10em);
+     }
+ }
+
+ .g {
+font-family: helvetica;
+ position: relative;
+ animation: moveg 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moveg {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(13%) translatey(-9em);
+     }
+ }
+
+ .e {
+font-family: helvetica;
+ position: relative;
+ animation: movee 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movee {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(19%) translatey(-8em);
+     }
+ }
+
+
+ .aa {
+ font-family: helvetica;
+ position: relative;
+ animation: moveaa 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes moveaa {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(17%) translatey(-7em);
+     }
+ }
+
+ .a {
+ font-family: helvetica;
+ position: relative;
+ animation: movea 1.5s forwards;
+ font-size: 1em;animation-delay: .5s;
+
+ }
+
+ @keyframes movea {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(22%) translatey(-6em);
+     }
+ }
+
+
+ .dotdot {
+font-family: helvetica;
+ position: relative;
+ animation: movedotdot 1.8s forwards;
+ font-size: 1em;
+ animation-delay: .5s;
+
+ }
+
+ @keyframes movedotdot {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(7%) translatey(-5em);
+     }
+ }
+
+ .dot {
+font-family: helvetica;
+ position: relative;
+ font-size: 1em;
+ animation: movedot 2s forwards;
+ animation-delay: .8s;
+
+ }
+
+ @keyframes movedot {
+     0% {
+         transform: translatex(0px) translatey(0px)
+     }
+     100% {
+         transform: translatex(15%) translatey(-4em);
+     }
+ }
